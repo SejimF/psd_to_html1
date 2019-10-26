@@ -1,0 +1,221 @@
+
+.mind_explore {
+    position: relative;
+    height: 905px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        content: "";
+        left: 0px;
+        top: -190px;
+        position: absolute;
+        border-left: 100vw solid #e4157c00;
+        border-bottom: 192px solid #ffffff;
+    }
+}
+
+.mind_explore_header {
+    width: 37%;
+    margin: auto;
+    padding-top: 2.2em;
+    margin-bottom: 7.7em;
+    h2 {
+        font-size: 34px;
+    line-height: 24px;
+    color: #303842;
+    font-family: "Roboto";
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 0.9em;   
+    }
+
+    p {
+        width: 695px;
+        height: 42px;
+        font-size: 14px;
+        line-height: 24px;
+        color: #8191a6;
+        font-family: "Roboto";
+        font-weight: 300;
+        text-align: center;
+    }
+}
+
+
+.mind_explore_image-container {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+}
+
+.mind_explore_img {
+    position: relative;
+}
+
+.mind_explore_img-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 87%;
+    height: 243px;
+    transform: translate(-50%, -50%);
+    background: rgba(48,56,66,0.6588235294117647);
+
+    p {
+        width: 100%;
+        font-size: 24px;
+line-height: 24px;
+color: #ffffff;
+font-family: "Roboto";
+font-weight: 400;
+text-align: center;
+position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+}
+
+.full_img_height {
+height: 100%;
+object-fit: cover;
+}
+
+
+.bottom_big_green_circle {
+    top: 12%;
+    left: 26.2%;
+    width: 184px;
+    height: 184px;
+    background: #4caf50;
+    border-radius: 50%;
+}
+
+
+.bottom_small_pink_circle {
+    top: 91%;
+    left: 28.3%;
+    width: 44px;
+    height: 44px;
+    background: #9c27b0;
+    border-radius: 50%;
+}
+
+.bottom_small_border_green_circle {
+    top: 60.2%;
+    left: 87.5%;
+    width: 36px;
+    height: 36px;
+    border: 4px solid #4baf4f;
+    border-radius: 50%;
+}
+
+.bottom_small_border_circle_with-line {
+    top: 79%;
+    left: 14%;
+    width: 33px;
+    height: 33px;
+    border: 9px solid #2196f3;
+    border-radius: 50%;
+
+    &::before {
+        content: "";
+    position: absolute;
+    width: 6px;
+    height: 40px;
+    transform: rotate(54deg) translateX(7px) translateY(5px);
+    background: #3f51b5;
+    border-radius: 8px;
+    z-index: -1;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 6px;
+        height: 55px;
+        background: #3f51b5;
+        transform: rotate(52deg) translateX(1px) translateY(-45px);
+        border-radius: 8px;
+    }
+}
+
+
+.bottom_triangle_filled {
+    top: 57%;
+    left: 9.2%;
+    width: 0px;
+    height: 0px;
+    border: 27px solid #4baf4f;
+    border-left: 27px solid transparent;
+    border-top: 27px solid transparent;
+    transform: rotate(45deg);
+}
+
+.bottom_border_triangle_blue {
+    top: 6%;
+    left: 92.6%;
+    width: 38px;
+    height: 35px;
+    border: 4px solid #f34335;
+    border-radius: 0px;
+    transform: rotate(6deg) skew(15deg, 15deg);
+    border-left: none;
+    border-top: none;
+    &::before {
+        content: "";
+        position: absolute;
+        width: 130%;
+        height: 3px;
+        background: #f34335;
+        transform: translateY(13px) rotate(135deg) translateX(5px);
+    }
+}
+
+.bottom_rectangle_border_yellow {
+    top: 20%;
+    left: 68.5%;
+    width: 26px;
+    height: 33px;
+    border: 6px solid #ffeb3b;
+    transform: rotate(119deg);
+    border-radius: 10px;
+}
+
+.bottom_rectangle_line {
+    top: 66.4%;
+    left: 72.7%;
+    width: 0px;
+    height: 53px;
+    border: 4px solid #3f51b5;
+    /* transform: rotate(119deg); */
+    border-radius: 80px;
+}
+
+.bottom_line_wave {
+    top: 15%;
+    left: -1.3%;
+    width: 110px;
+    height: 20px;
+    background-image: url(../public/shapes/wave2.svg);
+}
+
+.bottom_top_downside_lines {
+    top: -16.8%;
+    left: 76%;
+    width: 61px;
+    height: 60px;
+    background-image: url(../public/shapes/downlines.svg);
+    background-size: cover;
+    z-index: 3;
+}
+
+.bottom_top_downside_lines2 {
+    top: 57.5%;
+    left: 8%;
+    width: 31px;
+    height: 50px;
+    background-image: url(../public/shapes/downlines2.svg);
+    background-size: cover;
+}

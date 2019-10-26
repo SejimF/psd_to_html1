@@ -1,0 +1,45 @@
+.customers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 165px;
+    border: none;
+    border-top: 1px solid #f0f0f0;
+    /* border-bottom: 1px solid #f0f0f0; */
+    margin: 0 20.4%;
+}
+
+.our_customers-title {
+    width: 34%;
+    margin-right: 50px;
+    margin-bottom: 0.5em;
+    h2 {
+        font-size: 24px;
+        line-height: 24px;
+        color: $mainColor;
+        font-family: "Roboto";
+        font-weight: 300;
+        margin-bottom: 15px;
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 24px;
+        color: $textColor;
+        font-family: "Open Sans";
+        font-weight: 300;
+    }
+}
+
+
+.customers_logos {
+    width: 67%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.customer_logo {
+    margin-left: 65px;
+}

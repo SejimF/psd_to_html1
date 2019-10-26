@@ -1,0 +1,101 @@
+.careers {
+    position: relative;
+    padding: 0 20.4%;
+    height: 726px;
+    background: #fafafa;
+
+    &::before {
+        content: "";
+        position: absolute;
+        content: "";
+        left: 0px;
+        top: -190px;
+        position: absolute;
+        border-left: 100vw solid #7f26dc00;
+        /* border-right: 940px solid #1ac7dcbd; */
+        border-bottom: 192px solid #fafafa;
+    }
+}
+
+
+.career_img-container {
+    position: absolute;
+    right: 5em;
+    top: -6.1em;
+}
+
+.careers_info {
+    width: 66.5%;
+    margin: auto;
+}
+
+
+.career_title {
+    padding-top: 4.7em;
+    margin-bottom: 7em;
+    h2 {
+        font-size: 34px;
+        line-height: 24px;
+        color: #303842;
+        font-family: "Roboto";
+        font-weight: 300;
+        margin-bottom: 1em;
+    }
+
+    p {
+        width: 98%;
+    font-size: 14px;
+    line-height: 24px;
+    color: #8191a6;
+    font-family: "Roboto";
+    font-weight: 300;
+    }
+}
+
+
+.career_state-row {
+display: flex;
+flex-direction: row;
+margin-bottom: 5.5em;
+}
+
+.career_number {
+    font-size: 44px;
+    line-height: 24px;
+    
+    font-family: "Roboto";
+    font-weight: 250;
+    text-align: left;
+    margin-bottom: .4em;
+}
+
+.projects {
+    color: #32d5ba;
+}
+
+.coffee {
+    color: #6dc4f2;
+}
+
+.costumers {
+    color: #ffd13c;
+}
+
+.lines_of_code {
+    color: #f44336;
+}
+
+.career_text-title {
+    font-size: 15px;
+line-height: 18px;
+color: #303842;
+font-family: "Open Sans";
+font-weight: 300;
+text-align: left;
+}
+
+
+.career_state {
+    margin-right: 5.7em;
+    width: 183px;
+}

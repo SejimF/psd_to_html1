@@ -1,0 +1,127 @@
+header {
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 10px rgba(182, 182, 182, 0.24);
+    background-color: rgba(255, 255, 255, 0.941176);
+    z-index: 2;
+}
+
+.header_first_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 20.4%;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.header_first_row-social {
+    i {
+       
+        margin-right: 12px;
+        font-size: 0.8rem;
+
+        &:hover {
+            color: $textColor;
+        }
+    }
+}
+
+.header_first_row-phone_number {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hotline {
+    color: $mainColor;
+    font-size: $text-size-small;
+
+    line-height: 14px;
+font-family: "Roboto";
+font-weight: 400;
+margin-right: 1.2em;
+}
+
+.phone_number {
+
+    font-size: $text-size-small;
+    line-height: 12px;
+    color: $secondColor;
+    font-family: "Roboto";
+    font-weight: 300;
+}
+
+
+.header_second_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 20.4%;
+}
+
+nav, ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    li {
+        position: relative;
+        padding: 23px 1px 21px 0;
+
+
+        &.active {
+
+            &::before {
+                position: absolute;
+    content: "";
+    width: 60px;
+    height: 1px;
+    background: green;
+    top: -2px;
+    right: -6px;
+            }
+    }
+}
+
+}
+
+
+
+.hamburger_menu {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    margin-left: 40px;
+}
+
+.hamburger_top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 13px;
+    height: 2px;
+    background: $mainColor;
+}
+
+.hamburger_middle {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 10px;
+    height: 2px;
+    background: $mainColor;
+    transform: translateY(-50%);
+}
+
+.hamburger_bottom {
+    position: absolute;
+    bottom: 0%;
+    right: 0;
+    width: 15px;
+    height: 2px;
+    background: $mainColor;
+}

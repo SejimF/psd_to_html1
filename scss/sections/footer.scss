@@ -1,0 +1,118 @@
+footer {
+position: relative;
+background: #fafafa;
+    &::before {
+        content: "";
+        position: absolute;
+        content: "";
+        left: 0px;
+        top: -198px;
+        position: absolute;
+        border-left: 100vw solid #e4157c00;
+        /* border-right: 940px solid #1ac7dcbd; */
+        border-bottom: 200px solid #fafafa;
+    }
+}
+
+.footer_upside {
+    height: 178px;
+    background: #fafafa;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.footer_downside {
+    margin: 0 23.4em 0 20.4%;
+    display: flex;
+    transform: translateY(4.4em);
+   
+}
+
+.footer_first_row {
+    margin-right: 10.99em;
+    width: 32%;
+}
+
+.footer_logo {
+    margin-bottom: 1.8em;
+}
+
+
+.footer_text {
+    font-size: 14px;
+    line-height: 24px;
+    color: #8191a6;
+    font-family: "Roboto";
+    font-weight: 300;
+    margin-bottom: 1.4em;
+}
+
+.policy_and_condition {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #303842;
+    font-family: "Roboto";
+    font-weight: 400;
+
+    margin-bottom: 0.9em;
+
+    >p {
+        margin-right: 3.5em;
+    }
+}
+
+.copyright {
+    font-size: 14px;
+    line-height: 28px;
+    color: #8191a6;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+
+.footer_category-header {
+    font-size: 14px;
+    line-height: 59px;
+    color: #303842;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+.footer_category-social {
+    font-size: 14px;
+    line-height: 59px;
+    color: #303842;
+    font-family: "Roboto";
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+
+.footer_icons {
+    margin-right: 1em;
+}
+
+.footer_category-item {
+    font-size: 14px;
+    line-height: 34px;
+    color: #8191a6;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+
+.footer_second_row {
+    margin-right: 9.3em;
+    transform: translateY(-0.6em);
+}
+
+.footer_third_row {
+    margin-right: 8.5em;
+    transform: translateY(-0.6em);
+}
+
+
+.footer_forth_row {
+    transform: translateY(-0.6em);
+}
