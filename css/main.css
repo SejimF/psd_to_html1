@@ -360,7 +360,7 @@ nav li.active::before, ul li.active::before {
 
 .our_customers-title {
   width: 34%;
-  margin-right: 50px;
+  margin-right: 3%;
   margin-bottom: 0.5em;
 }
 
@@ -389,7 +389,7 @@ nav li.active::before, ul li.active::before {
 }
 
 .customer_logo {
-  margin-left: 65px;
+  margin-left: 9%;
 }
 
 .services {
